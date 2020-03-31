@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+  <title>Semantically Mutil-modal Image Synthesis</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+<meta property="og:title" content="Semantically Mutil-modal Image Synthesis"/>
+
+<script src="lib.js" type="text/javascript"></script>
+<script src="popup.js" type="text/javascript"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136330885-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-136330885-1');
+</script>
+
+<script type="text/javascript">
+// redefining default features
+var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';
+</script>
+<link media="all" href="glab.css" type="text/css" rel="StyleSheet">
+<style type="text/css" media="all">
+IMG {
+	PADDING-RIGHT: 0px;
+	PADDING-LEFT: 0px;
+	FLOAT: right;
+	PADDING-BOTTOM: 0px;
+	PADDING-TOP: 0px
+}
+#primarycontent {
+	MARGIN-LEFT: auto; ; WIDTH: expression(document.body.clientWidth >
+1000? "1000px": "auto" ); MARGIN-RIGHT: auto; TEXT-ALIGN: left; max-width:
+1000px }
+BODY {
+	TEXT-ALIGN: center
+}
+</style>
+
+<meta content="MSHTML 6.00.2800.1400" name="GENERATOR"><script src="b5m.js" id="b5mmain" type="text/javascript"></script></head>
+
+<body>
+
+<div id="primarycontent">
+<center><h1>Semantically Mutil-modal Image Synthesis</h1></center>
+<center><h2>
+	<a href="https://zzhu.vision/">Zhen Zhu*</a>&nbsp;&nbsp;&nbsp;
+	<a>Zhiliang Xu*</a>&nbsp;&nbsp;&nbsp;
+	<a>Ansheng You</a>&nbsp;&nbsp;&nbsp;
+	<a href="http://cloud.eic.hust.edu.cn:8071/~xbai/">Xiang Bai†</a>&nbsp;&nbsp;&nbsp;
+	</h2>
+	<center><h2>
+		<a>Huazhong University of Science and Technology</a>&nbsp;&nbsp;&nbsp;
+		<a>Peking University</a>&nbsp;&nbsp;&nbsp;
+	</h2>
+		<h2>in CVPR 2020</h2>
+		<h2>
+<a href="http://arxiv.org/abs/2003.12697">arxiv</a>&nbsp;&nbsp;&nbsp;
+<a href='https://github.com/Seanseattle/SMIS'> PyTorch </a></h2>
+	</center>
+<center><img src="imgs/main.png" width="97%"></center>
+<h2 align="center" margin-top="20px">Abstract</h2>
+<div style="font-size:14px"><p align="justify">In this paper, we focus on semantically multi-modal image synthesis (SMIS) task, namely,
+generating multi-modal images at the semantic level. Previous work seeks to use multiple class-specific generators,
+constraining its usage in datasets with a small number of classes.
+We instead propose a novel Group Decreasing Network (GroupDNet) that leverages group convolutions in the generator and progressively decreases the group numbers of the convolutions in the decoder.
+Consequently, GroupDNet is armed with much more controllability on translating semantic labels to natural images and has plausible high-quality yields for datasets with many classes.
+Experiments on several challenging datasets demonstrate the superiority ofGroupDNet on performing the SMIS task.
+	We also show that GroupDNet is capable of performing a wide range of interesting synthesis applications.</p></div>
+
+<table border="0" cellspacing="0" cellpadding="10" width="100%">
+	<tr>
+	<td align="center" valign="middle" width="100%" class="full">
+		<h2>  Video of Semantically Mutil-modal Image Synthesis</h2>
+		<p><iframe width="80%" height="500px" src="https://www.youtube.com/embed/uarUonGi_ZU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
+	</td>
+</table>
+
+<br>
+<h1>Related Work</h1>
+
+<ul id='relatedwork'>
+<div align="left">
+	<li font-size: 15px> Dingdong Yang, Seunghoon Hong, Yunseok Jang, Tianchen Zhao, Honglak Lee <a href="https://arxiv.org/abs/1901.09024"><strong>"DIVERSITY-SENSITIVE CONDITIONAL GENERATIVE ADVERSARIAL NETWORKS"</strong></a>, in ICLR 2019. (DSGAN)
+</li>
+<li font-size: 15px> Jun-Yan Zhu, Richard Zhang, Deepak Pathak, Trevor Darrell, Alexei A. Efros, Oliver Wang, Eli Shechtman <a href="https://arxiv.org/abs/1711.11586"><strong>"Toward Multimodal Image-to-Image Translation"</strong></a>, NIPS 2017. (BicycleGAN)
+</li>
+<li font-size: 15px> Taesung Park, Ming-Yu Liu, Ting-Chun Wang, Jun-Yan Zhu <a href="https://arxiv.org/abs/1903.07291"><strong>"Semantic Image Synthesis with Spatially-Adaptive Normalization"</strong></a>, in CVPR 2019.
+</li>
+<li font-size: 15px> T. Wang, M. Liu, J. Zhu, A. Tao, J. Kautz, and B. Catanzaro. <a href="https://tcwang0509.github.io/pix2pixHD/"><strong>"High-Resolution Image Synthesis and Semantic Manipulation with Conditional GANs"</strong></a>, in CVPR 2018. (pix2pixHD)
+</li>
+</div>
+</ul>
