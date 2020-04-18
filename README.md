@@ -1,11 +1,11 @@
 Semantically Multi-modal Image Synthesis
 ---
-#### [Project page](http://seanseattle.github.io/SMIS) / [Paper](https://arxiv.org/abs/2003.12697)  / [Demo](https://www.youtube.com/watch?v=uarUonGi_ZU&t=2s)
+### [Project page](http://seanseattle.github.io/SMIS) / [Paper](https://arxiv.org/abs/2003.12697)  / [Demo](https://www.youtube.com/watch?v=uarUonGi_ZU&t=2s)
 ![gif demo](docs/imgs/smis_gif.gif) \
 Semantically Multi-modal Image Synthesis(CVPR2020). \
 Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai
 
-#### Requirements
+### Requirements
 ---
 - torch>=1.0.0
 - torchvision
@@ -15,11 +15,11 @@ Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai
 - tqdm
 - opencv-python
 
-#### Getting Started
+### Getting Started
 ----
-##### Data Preperation
+#### Data Preperation
 **DeepFashion** \
-**Note:** We provide an example of [DeepFashion]((https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD)) Dataset. For some reason, that is slight different from DeepFashion used in ours paper.
+**Note:** We provide an example of [DeepFashion]((https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD)) Dataset. For some reason, that is slight different from the DeepFashion used in ours paper.
 
 
 **Cityscapes** \
@@ -28,12 +28,12 @@ Cityscapes can be downloaded at [here](https://www.cityscapes-dataset.com/)
 **ADE20K** \
 This dataset can be downloaded at [here](http://sceneparsing.csail.mit.edu/) 
 
-##### Test/Train the models
+#### Test/Train the models
 Download the tar of the pretrained models from the [Google Drive Folder](https://drive.google.com/open?id=1og_9By_xdtnEd9-xawAj4jYbXR6A9deG).
 There are deepfashion.sh, cityscapes.sh and ade20k.sh in the scripts folder. Change the parameters like dataroot and so on, then comment or uncomment some code to test/train model. 
 And you can specify the --test_mask for SMIS test.  
 
   
-#### Acknowledgments
+### Acknowledgments
 ---
 Our code is based on the popular [SPADE](https://github.com/NVlabs/SPADE)
