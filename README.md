@@ -1,7 +1,7 @@
 Semantically Multi-modal Image Synthesis
 ---
 ### [Project page](http://seanseattle.github.io/SMIS) / [Paper](https://arxiv.org/abs/2003.12697)  / [Demo](https://www.youtube.com/watch?v=uarUonGi_ZU&t=2s)
-![gif demo](docs/imgs/smis_gif.gif) \
+![gif demo](docs/imgs/smis.gif) \
 Semantically Multi-modal Image Synthesis(CVPR2020). \
 Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai
 
