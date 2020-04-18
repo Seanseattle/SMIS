@@ -19,7 +19,7 @@ Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai
 ----
 #### Data Preperation
 **DeepFashion** \
-**Note:** We provide an example of [DeepFashion]((https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD)) Dataset. For some reason, that is slight different from the DeepFashion used in ours paper.
+**Note:** We provide an example of [DeepFashion](https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD) Dataset. For some reason, that is slight different from the DeepFashion used in ours paper.
 
 
 **Cityscapes** \
