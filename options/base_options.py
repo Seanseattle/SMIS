@@ -86,7 +86,7 @@ class BaseOptions():
         parser.add_argument('--no_instance', action='store_true',
                             help='if specified, do *not* add instance map as input')
         parser.add_argument('--nef', type=int, default=16, help='# of encoder filters in the first conv layer')
-        parser.add_argument('--use_vae', action='store_true', help='enable training with an image encoder.')
+        parser.add_argument('--use_vae', default=True, help='use encoder and vae loss')
         parser.add_argument('--vgg_path', type=str, default='')
         parser.add_argument('--clean_code', action='store_true')
         parser.add_argument('--test_type', type=str, default='visual', help='visual | FID | LPIPS | Mask LPIPS | IS')
