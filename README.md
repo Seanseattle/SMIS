@@ -19,19 +19,19 @@ Zhen Zhu, Zhiliang Xu, Ansheng You, Xiang Bai
 ----
 #### Data Preperation
 **DeepFashion** \
-**Note:** We provide an example of [DeepFashion](https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD) Dataset. For some reason, that is slight different from the DeepFashion used in ours paper.
+**Note:** We provide an example of the [DeepFashion](https://drive.google.com/open?id=1ckx35-mlMv57yzv47bmOCrWTm5l2X-zD) dataset. That is slightly different from the DeepFashion used in our paper due to the impact of the COVID-19.
 
 
 **Cityscapes** \
-Cityscapes can be downloaded at [here](https://www.cityscapes-dataset.com/)
+The Cityscapes dataset can be downloaded at [here](https://www.cityscapes-dataset.com/)
 
 **ADE20K** \
-This dataset can be downloaded at [here](http://sceneparsing.csail.mit.edu/) 
+The ADE20K dataset can be downloaded at [here](http://sceneparsing.csail.mit.edu/) 
 
 #### Test/Train the models
 Download the tar of the pretrained models from the [Google Drive Folder](https://drive.google.com/open?id=1og_9By_xdtnEd9-xawAj4jYbXR6A9deG).
 There are deepfashion.sh, cityscapes.sh and ade20k.sh in the scripts folder. Change the parameters like dataroot and so on, then comment or uncomment some code to test/train model. 
-And you can specify the --test_mask for SMIS test.  
+And you can specify the `--test_mask` for SMIS test.
 
   
 ### Acknowledgments
