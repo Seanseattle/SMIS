@@ -29,7 +29,7 @@ The Cityscapes dataset can be downloaded at [here](https://www.cityscapes-datase
 The ADE20K dataset can be downloaded at [here](http://sceneparsing.csail.mit.edu/) 
 
 #### Test/Train the models
-Download the tar of the pretrained models from the [Google Drive Folder](https://drive.google.com/open?id=1og_9By_xdtnEd9-xawAj4jYbXR6A9deG).
+Download the tar of the pretrained models from the [Google Drive Folder](https://drive.google.com/open?id=1og_9By_xdtnEd9-xawAj4jYbXR6A9deG). Save it in 'checkpoints/' and unzip it.
 There are deepfashion.sh, cityscapes.sh and ade20k.sh in the scripts folder. Change the parameters like dataroot and so on, then comment or uncomment some code to test/train model. 
 And you can specify the `--test_mask` for SMIS test.
 
